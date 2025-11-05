@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jajabor | Discover Hidden Travel Gems</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">Jajabor</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="login-btn">Join Now</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); background-size: cover; background-position: center;">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Explore Beyond Destinations</h1>
+      <p>Discover authentic experiences, hidden gems, and local stories across India. Uncover untold stories, local gems, and offbeat adventures across India.</p>
+      <a href="explore.html" class="cta-btn">Start Exploring</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features section">
+    <div class="container">
+      <h2>Why Choose Jajabor?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>🗺️ Map-Based Discovery</h3>
+          <p>Explore hidden locations, local food, and scenic routes with smart filters.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🤝 Traveller Community</h3>
+          <p>Connect with travel buddies, share experiences, and make new friends.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📸 Local Lens Stories</h3>
+          <p>Read authentic stories and itineraries shared by locals and explorers.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🧭 Safety & Budget Focus</h3>
+          <p>Verified travellers, safety ratings, and real-time tools for smart travel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section light-bg">
+    <div class="container">
+      <h2>Hidden Gems Across India</h2>
+      <div class="gallery-grid">
+        <img src="images/assam.png" alt="Assam">
+        <img src="images/ladakh.png" alt="Ladakh">
+        <img src="images/kashmir.png" alt="Kashmir">
+        <img src="images/manali.png" alt="Manali">
+        <img src="images/mussoorie.png" alt="Mussoorie">
+        <img src="images/rajasthan.png" alt="Rajasthan">
+        <img src="images/nagaland.png" alt="Nagaland">
+        <img src="images/arunachal.png" alt="Arunachal Pradesh">
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Section -->
+  <section class="join section">
+    <div class="container">
+      <h2>Join the Jajabor Community</h2>
+      <p>Become part of a growing travel movement — connect, share, and explore together.</p>
+      <form class="join-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Join Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Traveller Community Section -->
+  <section class="community section light-bg">
+    <div class="container">
+      <h2>Connect with Travellers ✈️</h2>
+      <p>Join our growing travel community where explorers share their journeys, hidden gems, local insights, and budget travel hacks.</p>
+      <div class="community-grid">
+        <div class="community-card">
+          <img src="images/tc.jpg" alt="Traveller Community">
+          <h3>Connect with Travellers</h3>
+          <p>Find your tribe. Join groups based on your travel style — backpackers, culture seekers, food lovers and more.</p>
+        </div>
+
+        <div class="community-card">
+          <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7" alt="Local Lens">
+          <h3>Local Lens Stories</h3>
+          <p>See destinations through the eyes of locals. Discover stories, traditions and food that never make it to mainstream guides.</p>
+        </div>
+
+        <div class="community-card">
+          <img src="images/bas.png" alt="Budget and Safety">
+          <h3>Budget & Safety Focus</h3>
+          <p>Plan smart. Get verified insights on affordable stays, safe routes, and trusted travel partners.</p>
+        </div>
+      </div>
+      <a href="community.html" class="btn">Be Part of the Journey</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Jajabor. Crafted with ❤️ in India.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Effect -->
+  <script>
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
+
+
